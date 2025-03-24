@@ -1,0 +1,261 @@
+/* This is the css for Profile Div */
+body {
+    background-color: #2e4053;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family:  "Gidole", sans-serif;
+}
+
+.profile-picture {
+    width: 970px;
+    text-align: center;
+    margin-left: 74px;
+    position: fixed;
+    width: 300px;
+    background-color: rgba(39, 58, 77, 0.9);
+    width: 320px;
+}
+
+.profile-picture h1{
+    color: #00ff99ae;
+}
+
+
+.profile-picture img {
+    width: 320px;
+    height: 335px;
+}
+
+.icons {
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.icons i {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #2e4053;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+     
+}
+
+.icons i:hover{
+    background-color: rgba(25, 45, 64, 0.9);
+}
+
+.Download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 22px;
+    cursor: pointer;
+    border-top: 1px solid rgba(128, 128, 128, 0.872);
+}
+
+.contact {
+    padding-right: 30px;
+    border-right: 1px solid rgba(128, 128, 128, 0.872);
+}
+
+.contact1 {
+    padding-left: 20px;    
+}
+
+
+/* This is for the About Me */
+.about-me {
+    padding-left: 430px;
+    /* text-align: justify; */
+    line-height: 1.5;
+}
+
+.about-me h1 {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.about-me p {
+    width: 93%;  
+    padding-top: 10px;  
+}
+
+.name {
+    display: flex;
+    line-height: 2.2;
+}
+
+.name ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ul-1 {
+    padding-left: 100px;
+}
+
+.client {
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+}
+
+.box-1{
+    border: 1px solid red;
+    width: 200px;
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-2 {
+    border: 1px solid red;
+    width: 200px;
+    height: 90px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.box-3 {
+    border: 1px solid red;
+    width: 200px;
+    height: 90px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.line{
+    width: 700px;
+    margin-left: 20px;
+}
+
+/* This is for the Skills */
+.progress-container {
+    width: 350px;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.progress-bar {
+    height: 5px;
+}
+.html { width: 80%; background-color: #e84a27; }
+.css { width: 75%; background-color: #2965f1; }
+.php { width: 70%; background-color: #4f5b93; }
+.javascript { width: 85%; background-color: #f0db4f; }
+.angularjs { width: 60%; background-color: #dd0031; }
+.wordpress { width: 65%; background-color: #21759b; }
+
+
+/* This is for the Experience  */
+
+
+
+/* This is newsletter */
+.newsletter {
+   width: 59%; 
+   border: 1px solid gold;
+}
+
+/* .newsletter h1, p {
+    text-align: center;
+} */
+
+.newsletter p {
+    padding-left: 150px;
+}
+
+/* This is for service */
+
+.service {
+    display: grid;
+    grid-template-columns: 370px 370px;
+    grid-template-rows: 250px 250px;
+    gap: 25px;
+}
+
+[class^="service-item"] {
+    background-color: rgba(39, 58, 77, 0.9);
+}
+
+.line1{
+    width: 700px;
+    margin-left: 20px;
+}
+
+/* This is for Portfolio */
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 370px 370px;
+    grid-template-rows: 250px 250px;
+    gap: 25px;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 100%;
+}
+
+[class^="portfolio-item"] {
+    border: 2px solid rgba(39, 58, 77, 0.9);
+}
+
+.line1{
+    width: 700px;
+    margin-left: 20px;
+}
+
+/* This is for Testimonial */
+
+.line2{
+    width: 700px;
+    margin-left: 20px;
+}
+
+/* This is for Contact Me */
+form {
+    width: 800px;
+}
+
+label{
+    /* display: block;
+    color: white;
+    font-size: 20px; */
+}
+
+input{
+    /* display: block;
+    width: 50%;
+    height: 50%;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    color: white; */
+    background-color: rgba(39, 58, 77, 0.9);
+}
+
+[type="send-message"] {
+    /* width: 40%;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px; */
+    cursor: pointer;
+    background-color: #00ff99ae;
+}
+
+[type="send-message"]:hover {
+    background-color:#00ff99ae;
+}
