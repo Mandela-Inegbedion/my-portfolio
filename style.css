@@ -77,7 +77,6 @@ body {
 /* This is for the About Me */
 .about-me {
     padding-left: 430px;
-    /* text-align: justify; */
     line-height: 1.5;
 }
 
@@ -229,11 +228,11 @@ form {
     width: 800px;
 }
 
-label{
-    /* display: block;
+/* label{
+    display: block;
     color: white;
-    font-size: 20px; */
-}
+    font-size: 20px;
+} */
 
 input{
     /* display: block;
