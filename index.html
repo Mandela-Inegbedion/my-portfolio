@@ -122,11 +122,13 @@
                     </div>
                     
                     <!-- This is for newsletter -->
-                    <div class="newsletter">
+                    <div class="newsletter-container">
                         <h1>Subscribe My Newsletter</h1>
                         <p>Subscribe and get my latest article in your inbox</p>
-                        <label for="email"></label>
-                        <input type="email" name="email" id="email" placeholder="Your email">
+                        <div class="input-container">
+                            <input type="email" placeholder="Your email">
+                            <button>Subscribe</button>
+                        </div>
                     </div>
 
                     <!-- This is for service -->
@@ -135,19 +137,19 @@
                             <div class="service">
                                 <div class="service-item1"><img src="webdesign.png" alt="">
                                     <h3>Web Design</h3>
-                                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                                    <p>I build beautiful, responsive website that elevate your online presence. By combining aesthetics with funcionality, I ensure your website looks great and also perform flawless across all devices</p>
                                 </div>
                                         <div class="service-item2"><img src="content-creating.png" alt="">
                                             <h3>Content Creation</h3>
-                                            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                                            <p>As a content creator, I develop and share valuable, relevant, and consistent content to attract and retain a clearly defined audience.</p>
                                         </div>
                                                 <div class="service-item3"><img src="seo.png" alt="">
                                                     <h3>SEO</h3>
-                                                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                                                    <p>As an SEO specialist, my goal is to improve the visibility, ranking, and quality of a website in search engine results pages (SERPs) through various techniques and strategies.</p>
                                                 </div>
                                                     <div class="service-item4"><img src="graphicdesign.png" alt="">
                                                         <h3>Graphic Design</h3>
-                                                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                                                        <p>I transform ideas into stunning visual that captivate and communicate effectively. I ensure that every design tells a story and leaves a lasting impression</p>
                                                     </div>
                             </div>
                             <div class="line-1"></div>
@@ -166,45 +168,71 @@
                     </div>
 
                     <!-- This is for Testimonial -->
-                    <div class="testimonial-h1">
-                        <h1>Testimonial</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere unde eos recusandae distinctio illum debitis minima voluptates voluptatum asperiores impedit, dolorum sit? Rerum, velit ex! Aliquam vitae eaque cum iure.</p>
+                    <div class="testimonial-container">
+                        <h2 class="testimonial-title">Testimonial</h2>
+                        <div class="testimonial-content">
+                            <span class="quote-icon">“ </span>
+                            <p class="testimonial-text">
+                                Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. 
+                                Rebum elitr dolore et eos labore, stet justo sed est sed. 
+                                Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita
+                            </p>
+                            <div class="testimonial-author">
+                                <img src="portfolio3.png" alt="Client Image">
+                                <div class="author-info">
+                                    <h4>Samson Peter</h4>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
                     </div>
-                    <div class="line-3"></div>
 
                     <!-- This is for Contact Me -->
-                     <div class="contact-me-h1">
-                        <h1>Contact Me</h1>
-                        <p>The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. </p>
-
-                        <form>
+                    <div class="contact-container">
+                        <h2 class="contact-title">Contact Me</h2>
+                        <p class="contact-description">
+                            The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. 
+                            Just copy and paste the files, add a little code and you're done. 
+                            <a href="#" class="download-link">Download Now</a>
+                        </p>
+                        <form action="#" method="POST">
                             <div class="input-group">
-                                <input type="text" placeholder="Your Name">
-                                <input type="email" placeholder="Your Email">
+                                <input type="text" placeholder="Your Name" required>
+                                <input type="email" placeholder="Your Email" required>
                             </div>
-                            <input type="text" placeholder="Subject">
-                            <textarea placeholder="Message"></textarea>
+                            <input type="text" placeholder="Subject" required>
+                            <textarea placeholder="Message" rows="5" required></textarea>
                             <button type="submit">Send Message</button>
                         </form>
                     </div>
+                            <!-- This is the code for footer -->
+                            <footer class="footer">
+                                
                             <div class="icons">
                                 <a href="https://x.com/Mandyy_Special?t=3OqQwZrQY8acdgzcMXaa7w&s=08"><i class="fa-brands fa-x-twitter"></i></a>
                                 <a href="https://www.facebook.com/share/1anXaeMsSd/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i></a>
                                 <a href="https://www.linkedin.com/in/mandela-inegbedion-478bb5247/"> <i class="fa-brands fa-linkedin-in"></i></a>
-                                <a href="https://www.instagram.com/mandyy_special?igsh=MTBubjFwYzd5bXVzYw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
-                                
+                                <a href="https://www.instagram.com/mandyy_special?igsh=MTBubjFwYzd5bXVzYw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>   
                             </div>
 
-                            <div class="Privacy">
-                                <div class="privacy-item1">Privacy</div>
-                                <div class="privacy-item2">Terms</div>
-                                <div class="privacy-item3">FAQs</div>
-                                <div class="privacy-item4">Help</div>
-                            </div>
-                
-                            <div class="reserved">
-                                © All Rights Reserved. Designed by Mandela Inegbdion
-                            </div>
+                                
+                                <div class="footer-links">
+                                    <a href="#">Privacy</a>
+                                    <a href="#">Terms</a>
+                                    <a href="#">FAQs</a>
+                                    <a href="#">Help</a>
+                                </div>
+                        
+                                <p class="copyright">
+                                    © All Rights Reserved. Designed by Mandela Inegbedion
+                                </p>
+                            </footer>
+                        
         </div>     
     </div>
 
