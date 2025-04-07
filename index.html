@@ -11,11 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gidole&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-
+    <!-- Beginning nav bar -->
+    <!-- html for Profile Div -->
     <div class="container">
-        <!-- This is the html for Profile Div  -->
         <div class="profile-picture">
             <img src="my-picture.jpg" alt="">
             <h1>Mandela Inegbedion</h1>
@@ -29,13 +29,16 @@
                 
             </div>
 
-            <div class="Download">
-                <a href=""><div class="contact">Download CV</div></a>
-                <a href=""> <div class="contact1">Contact Me</div></a>
+            <div class="download">
+                <a href="#download cv"><div class="contact">Download CV</div></a>
+                <a href="#contact me"> <div class="contact1">Contact Me</div></a>
             </div>
         </div>
-        <!-- This is for the About Me  -->
-        <div class="about-me">
+    <!-- End of nav bar -->
+
+        <!-- Beginning of Section -->
+        <!-- html for About Me -->
+        <div class="about-me" id="download cv">
             <h1>About Me</h1>
             <p> I am Mandela Inegbedion, a dedicated and passionate individual, my professional journey is fueled by a relentless pursuit of knowledge and a commitment to harnessing software development to drive meaningful impact and positive change in society.
             With a strong foundation in computer science, I specialize in designing, developing, and deploying innovative solutions that transform lives.</p>
@@ -52,76 +55,92 @@
                    
                     <div class="ul-1">
                         <ul>
-                            <li><span class="identity">Birthday:</span> 4 February 1999</li>
+                            <!-- <li><span class="identity">Birthday:</span> 4 February 1999</li> -->
                             <li><span class="identity">Experience:</span> 1 Year</li>
                             <li><span class="identity">Email:</span> inegbedionmandela9@gmail.com</li>
                             <li><span class="identity">Freelance:</span> Available</li>
                         </ul>   
                     </div>
                 </div>
-
-                    <div class="client">
-                        <div class="box-1"><span class="number">1</span> <span class="years">Year of <br>Experience</span></div>
-                        <div class="box-2"><span class="number">4</span> <span class="years">Happy <br>Clients</span></div>
-                        <div class="box-3"><span class="number">4</span> <span class="years">Complete <br>Projects</span></div>
-                    </div>  
+                                    
+                    <div class="number-container">
+                        <div class="box">
+                            <div class="number">1</div>
+                            <div class="text">Year of <span class="bold">Experience</span></div>
+                        </div>
+                        <div class="box">
+                            <div class="number">4</div>
+                            <div class="text">Happy <span class="bold">Clients</span></div>
+                        </div>
+                        <div class="box">
+                            <div class="number">4</div>
+                            <div class="text">Complete <span class="bold">Projects</span></div>
+                        </div>
+                    </div>
                     <div class="line"></div>                   
                   
-                    <!-- This is for the Skills  -->
-                    <div class="skills-h1">
+                    <!-- html for Skills  -->
+                    <div class="skill-container">
                         <h1>Skills</h1>
-                            <div class="skills">
-                                <div class="html">
-                                    <p>HTML <span class="lan">95%</span</p>
-                                    <div class="html-border1"></div>
+                        <div class="skills-column">
+                            <div class="skill">
+                                <div class="skill-name"><span>HTML</span><span>95%</span></div>
+                                <div class="progress-bar"><div class="progress html"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name"><span>CSS</span><span>85%</span></div>
+                                <div class="progress-bar"><div class="progress css"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name"><span>Javascript</span><span>90%</span></div>
+                                <div class="progress-bar"><div class="progress javascript"></div></div>
+                            </div>
+                        </div>
+                        <div class="skills-column">
+                            <div class="skill">
+                                <div class="skill-name"><span>React</span><span>90%</span></div>
+                                <div class="progress-bar"><div class="progress react"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name"><span>Python</span><span>95%</span></div>
+                                <div class="progress-bar"><div class="progress python"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name"><span>Django</span><span>85%</span></div>
+                                <div class="progress-bar"><div class="progress django"></div></div>
+                            </div>
+                        </div>
+                    </div>       
+                    <div class="line-4"></div>  
+                    
+                    <!-- html for Experience -->
+                    <div class="timeline-container">
+                                <h1>Experience</h1>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="title">Computer Operator</div>
+                                    <div class="company">Multichoice Technology | 2018 - 2019</div>
+                                    <div class="description">
+                                        I managed and maintained computer systems to ensure smooth operations. Assisted customers with internet access, software applications, printing, and scanning services. Monitored system performance, troubleshot technical issues, and ensured data security. Provided excellent customer support, managed digital transactions, and maintained an organized workspace to enhance user experience.
+                                    </div>
                                 </div>
-                                <div class="html">
-                                    <p>CSS 85%</p>
-                                    <div class="html-border2"></div>
-                                </div>
-                                <div class="html">
-                                    <p>Javascript 90%</p>
-                                    <div class="html-border3"></div>
-                                </div>
-                                <div class="html">
-                                    <p>React.js 90%</p>
-                                    <div class="html-border4"></div>
-                                </div>
-                                <div class="html">
-                                    <p>Python 95%</p>
-                                    <div class="html-border5"></div>
-                                </div>
-                                <div class="html">
-                                    <p>Django 90%</p>
-                                    <div class="html-border6"></div>
+                                <div class="timeline-item">
+                                    <div class="title">Web Developer</div>
+                                    <div class="company">Saru Tech | 2023 - 2024</div>
+                                    <div class="description">
+                                        I Designed, developed, and maintained dynamic, responsive websites to enhance user experience and functionality. Ensuring performance, security, and scalability. Collaborated with developers and content creators to deliver visually appealing and engaging websites. Implemented SEO best practices and integrated third-party tools to improve site performance and accessibility.
+                                    </div>
+                                </div>    
+                                <div class="timeline-item">
+                                    <div class="title">Content Creation</div>
+                                    <div class="company">Euphoric Tech | 2024 - 2024</div>
+                                    <div class="description">
+                                         I Created and managed digital content for Euphoric Tech's website and social media platforms to engage audiences and promote the brand. Wrote articles, designed graphics, and produced multimedia content. Ensured content was clear, creative, and SEO-friendly.
+                                    </div>
                                 </div>
                             </div>
                     </div>
-                    <div class="line-4"></div>  
-                    
-                    <!-- This is for the Experience -->
-                    <div class="experience">
-                        <h1>Experience</h1>   
-                            <p>
-                                Web Designer <br>
-                                Soft Company | 2000 - 2050 <br>
-                                We specialize in creating innovative digital solutions. Our team delivers top-notch web design services, combining stunning visuals with seamless functionality. With years of experience, we've mastered the art of crafting exceptional online experiences
-                            </p>
-
-                            <p>
-                                Web Designer <br>
-                                Soft Company | 2000 - 2050 <br>
-                                We specialize in creating innovative digital solutions. Our team delivers top-notch web design services, combining stunning visuals with seamless functionality. With years of experience, we've mastered the art of crafting exceptional online experiences
-                            </p>
-
-                            <p>
-                                Web Designer <br>
-                                Soft Company | 2000 - 2050 <br>
-                                We specialize in creating innovative digital solutions. Our team delivers top-notch web design services, combining stunning visuals with seamless functionality. With years of experience, we've mastered the art of crafting exceptional online experiences
-                            </p>
-                    </div>
-                    
-                    <!-- This is for newsletter -->
+                    <!-- html for Newsletter -->
                     <div class="newsletter-container">
                         <h1>Subscribe My Newsletter</h1>
                         <p>Subscribe and get my latest article in your inbox</p>
@@ -131,33 +150,39 @@
                         </div>
                     </div>
 
-                    <!-- This is for service -->
+                    <!-- html for Service -->
                     <div class="service-h1">
                         <h1>Services</h1>
                             <div class="service">
                                 <div class="service-item1"><img src="webdesign.png" alt="">
-                                    <h3>Web Design</h3>
+                                    <h3>Web Developer</h3>
                                     <p>I build beautiful, responsive website that elevate your online presence. By combining aesthetics with funcionality, I ensure your website looks great and also perform flawless across all devices</p>
                                 </div>
-                                        <div class="service-item2"><img src="content-creating.png" alt="">
-                                            <h3>Content Creation</h3>
-                                            <p>As a content creator, I develop and share valuable, relevant, and consistent content to attract and retain a clearly defined audience.</p>
-                                        </div>
-                                                <div class="service-item3"><img src="seo.png" alt="">
-                                                    <h3>SEO</h3>
-                                                    <p>As an SEO specialist, my goal is to improve the visibility, ranking, and quality of a website in search engine results pages (SERPs) through various techniques and strategies.</p>
-                                                </div>
-                                                    <div class="service-item4"><img src="graphicdesign.png" alt="">
-                                                        <h3>Graphic Design</h3>
-                                                        <p>I transform ideas into stunning visual that captivate and communicate effectively. I ensure that every design tells a story and leaves a lasting impression</p>
-                                                    </div>
+                                <div class="service-item2"><img src="graphicdesign.png" alt="">
+                                    <h3>Computer Operator</h3>
+                                    <p>I transform ideas into stunning visual that captivate and communicate effectively. I ensure that every design tells a story and leaves a lasting impression</p>
+                                </div>
+                                <div class="service-item3"><img src="seo.png" alt="">
+                                    <h3>SEO</h3>
+                                    <p>As an SEO specialist, my goal is to improve the visibility, ranking, and quality of a website in search engine results pages (SERPs) through various techniques and strategies.</p>
+                                </div>
+                                <div class="service-item4"><img src="content-creating.png" alt="">
+                                    <h3>Content Creation</h3>
+                                    <p>As a content creator, I develop and share valuable, relevant, and consistent content to attract and retain a clearly defined audience.</p>
+                                </div>
                             </div>
-                            <div class="line-1"></div>
                     </div>
-
-                    <!-- This is for Portfolio -->
-                    <div class="portfolio-h1">
+                            <div class="line-1"></div>
+    
+                    <!-- html for Portfolio -->
+                    <div class="portfolio-1">
                         <h1>Portfolio</h1>
+                        <div class="filter-buttons">
+                            <button class="active"><i class="fas fa-star"></i> All</button>
+                            <button><i class="fas fa-laptop-code"></i> Design</button>
+                            <button><i class="fas fa-mobile-alt"></i> Development</button>
+                        </div>
+                    <div class="portfolio-h1">
                             <div class="portfolio">
                                 <div class="portfolio-item1"><img src="portfolio1.png" alt=""></div>
                                 <div class="portfolio-item2"><img src="portfolio2.png" alt=""></div>
@@ -167,51 +192,43 @@
                             <div class="line-2"></div>
                     </div>
 
-                    <!-- This is for Testimonial -->
+                    <!-- html for Testimonial -->
                     <div class="testimonial-container">
-                        <h2 class="testimonial-title">Testimonial</h2>
+                        <h1 class="testimonial-title">Testimonial</h1>
                         <div class="testimonial-content">
                             <span class="quote-icon">“ </span>
                             <p class="testimonial-text">
-                                Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. 
-                                Rebum elitr dolore et eos labore, stet justo sed est sed. 
-                                Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita
+                                Working with Mandela Inegbedion was an amazing experience. His web development skills are top-notch, and he delivered our project on time with outstanding quality. Highly recommended.
                             </p>
                             <div class="testimonial-author">
-                                <img src="portfolio3.png" alt="Client Image">
+                                <img src="client-image.jpg" alt="Client Image">
                                 <div class="author-info">
-                                    <h4>Samson Peter</h4>
-                                    <p></p>
+                                    <h4>Austin Nwabueze</h4>
+                                    <p>Business Man</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="testimonial-dots">
-                            <span class="dot active"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                        </div>
                     </div>
+                    <div class="line-3"></div>
+        <!-- End of Section -->
 
-                    <!-- This is for Contact Me -->
-                    <div class="contact-container">
-                        <h2 class="contact-title">Contact Me</h2>
-                        <p class="contact-description">
-                            The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. 
-                            Just copy and paste the files, add a little code and you're done. 
-                            <a href="#" class="download-link">Download Now</a>
-                        </p>
-                        <form action="#" method="POST">
+                    
+                    <!-- Beginning of footer -->
+                    <!-- html for Contact Me -->
+                    <div class="contact-form">
+                        <h1 class="contact-title">Contact Me</h1>
+                        <form>
                             <div class="input-group">
-                                <input type="text" placeholder="Your Name" required>
-                                <input type="email" placeholder="Your Email" required>
+                                <input type="text" placeholder="Your Name">
+                                <input type="email" placeholder="Your Email">
                             </div>
-                            <input type="text" placeholder="Subject" required>
-                            <textarea placeholder="Message" rows="5" required></textarea>
+                            <input type="text" placeholder="Subject" class="full-width">
+                            <textarea placeholder="Message" class="full-width"></textarea>
                             <button type="submit">Send Message</button>
                         </form>
                     </div>
-                            <!-- This is the code for footer -->
-                            <footer class="footer">
+                            
+                            <footer class="footer" id="contact me">
                                 
                             <div class="icons">
                                 <a href="https://x.com/Mandyy_Special?t=3OqQwZrQY8acdgzcMXaa7w&s=08"><i class="fa-brands fa-x-twitter"></i></a>
@@ -227,11 +244,9 @@
                                     <a href="#">FAQs</a>
                                     <a href="#">Help</a>
                                 </div>
-                        
-                                <p class="copyright">
-                                    © All Rights Reserved. Designed by Mandela Inegbedion
-                                </p>
                             </footer>
+                    <!-- End of footer -->
+                     
                         
         </div>     
     </div>
