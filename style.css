@@ -535,3 +535,134 @@ margin: 0 10px;
 
 
 
+/* Add responsive behavior */
+@media (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .profile-picture {
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    .profile-picture img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .about-me,
+    .skill-container,
+    .timeline,
+    .newsletter-container,
+    .testimonial-container,
+    .contact-form {
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .name {
+      flex-direction: column;
+      padding-left: 0;
+    }
+  
+    .ul-1 {
+      padding-left: 0;
+    }
+  
+    .number-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box {
+      width: 90%;
+    }
+  
+    .skills-column {
+      width: 100%;
+    }
+  
+    .service,
+    .portfolio {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      padding: 0 20px;
+    }
+  
+    .testimonial-container {
+      margin-right: 0;
+    }
+  
+    .footer {
+      width: 100%;
+    }
+  
+    .input-container {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .input-container input,
+    .input-container button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .input-group {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    .about-me h1,
+    .newsletter-container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .skill-name {
+      font-size: 1rem;
+    }
+  
+    .testimonial-text {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .download,
+    .contact,
+    .contact1 {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .testimonial-author {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .testimonial-author img {
+      margin-bottom: 10px;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+    }
+  
+    .footer-links a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
