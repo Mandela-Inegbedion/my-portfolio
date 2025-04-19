@@ -89,6 +89,14 @@ body {
 
 /* Beginning of Section  */
 /* css for the About Me */
+
+#time1 {
+    text-align: center;
+    font-size: 30px;
+    color:  #00ff99ae;
+    font-weight: bold;
+    margin-top: 20px;
+}
 .about-me {
     padding-left: 440px;
     line-height: 1.5;
@@ -96,12 +104,14 @@ body {
 
 .about-me h1 {
     font-size: 40px;
-    padding-top: 20px;
+    margin-top: 0px;
+   
 }
 
 .about-me p {
     width: 93%;  
-    padding-top: 10px;  
+    /* padding-top: 10px;  
+    margin-top: 0px; */
 }
 
 .name {
@@ -561,7 +571,7 @@ margin: 0 10px;
     .contact-form {
       padding-left: 20px;
       padding-right: 20px;
-      width: 100%;
+      max-width: 100%;
       margin-left: 0;
     }
   
