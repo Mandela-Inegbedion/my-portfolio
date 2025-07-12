@@ -1,259 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mandela-portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mandela - Software Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Full-stack software developer specializing in responsive web applications with React, Node.js, and modern technologies."
+    />
+    <meta
+      name="keywords"
+      content="software developer, web developer, full-stack, React, Node.js, JavaScript"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gidole&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="John Smith - Software Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Full-stack software developer specializing in responsive web applications"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://MandelaInegbedion.dev" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+    />
 
-<body>
-    <!-- Beginning nav bar -->
-    <!-- html for Profile Div -->
-    
-    <div class="container">
-        <div class="profile-picture">
-            <img src="my-picture.jpg" alt="">
-            <h1>Mandela Inegbedion</h1>
-            <h2>Software Developer</h2>
-            
-            <div class="icons">
-                <a href="https://x.com/Mandyy_Special?t=3OqQwZrQY8acdgzcMXaa7w&s=08"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.facebook.com/share/1anXaeMsSd/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/mandela-inegbedion-478bb5247/"> <i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/mandyy_special?igsh=MTBubjFwYzd5bXVzYw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
-                
-            </div>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>"
+    />
 
-            <div class="download">
-                <a href="#download cv"><div class="contact">Download CV</div></a>
-                <a href="#contact me"> <div class="contact1">Contact Me</div></a>
-            </div>
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">MANDELA</div>
+
+        <div class="nav-links">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
         </div>
-    <!-- End of nav bar -->
 
-        <!-- Beginning of Section -->
-        <!-- html for About Me -->
-        <div class="about-me" id="download cv">
-            <p id="time1"></p> 
-            <h1>About Me</h1>
-            <p> I am Mandela Inegbedion, a dedicated and passionate individual, my professional journey is fueled by a relentless pursuit of knowledge and a commitment to harnessing software development to drive meaningful impact and positive change in society.
-            With a strong foundation in computer science, I specialize in designing, developing, and deploying innovative solutions that transform lives.</p>
-       
-                <div class="name">
-                    <div class="ul">
-                        <ul>
-                            <li><span class="identity">Name:</span> Mandela Inegbedion</li>
-                            <li><span class="identity">Degree:</span> Higher National Diploma</li>
-                            <li><span class="identity">Phone:</span> +234 816 411 6884</li>   
-                            <li><span class="identity">City/Country:</span> Abuja, Federal Capital Territory, Nigeria </li>     
-                        </ul>
-                    </div>
-                   
-                    <div class="ul-1">
-                        <ul>
-                            <!-- <li><span class="identity">Birthday:</span> 4 February 1999</li> -->
-                            <li><span class="identity">Experience:</span> 1 Year</li>
-                            <li><span class="identity">Email:</span> inegbedionmandela9@gmail.com</li>
-                            <li><span class="identity">Freelance:</span> Available</li>
-                        </ul>   
-                    </div>
-                </div>
-                                    
-                    <div class="number-container">
-                        <div class="box">
-                            <div class="number">1</div>
-                            <div class="text">Year of <span class="bold">Experience</span></div>
-                        </div>
-                        <div class="box">
-                            <div class="number">4</div>
-                            <div class="text">Happy <span class="bold">Clients</span></div>
-                        </div>
-                        <div class="box">
-                            <div class="number">4</div>
-                            <div class="text">Complete <span class="bold">Projects</span></div>
-                        </div>
-                    </div>
-                    <div class="line"></div>                   
-                  
-                    <!-- html for Skills  -->
-                    <div class="skill-container">
-                        <h1>Skills</h1>
-                        <div class="skills-column">
-                            <div class="skill">
-                                <div class="skill-name"><span>HTML</span><span>95%</span></div>
-                                <div class="progress-bar"><div class="progress html"></div></div>
-                            </div>
-                            <div class="skill">
-                                <div class="skill-name"><span>CSS</span><span>85%</span></div>
-                                <div class="progress-bar"><div class="progress css"></div></div>
-                            </div>
-                            <div class="skill">
-                                <div class="skill-name"><span>Javascript</span><span>90%</span></div>
-                                <div class="progress-bar"><div class="progress javascript"></div></div>
-                            </div>
-                        </div>
-                        <div class="skills-column">
-                            <div class="skill">
-                                <div class="skill-name"><span>React</span><span>90%</span></div>
-                                <div class="progress-bar"><div class="progress react"></div></div>
-                            </div>
-                            <div class="skill">
-                                <div class="skill-name"><span>Python</span><span>95%</span></div>
-                                <div class="progress-bar"><div class="progress python"></div></div>
-                            </div>
-                            <div class="skill">
-                                <div class="skill-name"><span>Django</span><span>85%</span></div>
-                                <div class="progress-bar"><div class="progress django"></div></div>
-                            </div>
-                        </div>
-                    </div>       
-                    <div class="line-4"></div>  
-                    
-                    <!-- html for Experience -->
-                    <div class="timeline-container">
-                                <h1>Experience</h1>
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <div class="title">Computer Operator</div>
-                                    <div class="company">Multichoice Technology | 2018 - 2019</div>
-                                    <div class="description">
-                                        I managed and maintained computer systems to ensure smooth operations. Assisted customers with internet access, software applications, printing, and scanning services. Monitored system performance, troubleshot technical issues, and ensured data security. Provided excellent customer support, managed digital transactions, and maintained an organized workspace to enhance user experience.
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="title">Web Developer</div>
-                                    <div class="company">Saru Tech | 2023 - 2024</div>
-                                    <div class="description">
-                                        I Designed, developed, and maintained dynamic, responsive websites to enhance user experience and functionality. Ensuring performance, security, and scalability. Collaborated with developers and content creators to deliver visually appealing and engaging websites. Implemented SEO best practices and integrated third-party tools to improve site performance and accessibility.
-                                    </div>
-                                </div>    
-                                <div class="timeline-item">
-                                    <div class="title">Content Creation</div>
-                                    <div class="company">Euphoric Tech | 2024 - 2024</div>
-                                    <div class="description">
-                                         I Created and managed digital content for Euphoric Tech's website and social media platforms to engage audiences and promote the brand. Wrote articles, designed graphics, and produced multimedia content. Ensured content was clear, creative, and SEO-friendly.
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                    <!-- html for Newsletter -->
-                    <div class="newsletter-container">
-                        <h1>Subscribe My Newsletter</h1>
-                        <p>Subscribe and get my latest article in your inbox</p>
-                        <div class="input-container">
-                            <input type="email" placeholder="Your email">
-                            <button>Subscribe</button>
-                        </div>
-                    </div>
+        <div class="nav-controls">
+          <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon" id="themeIcon"></i>
+          </button>
+          <button class="mobile-menu-toggle" id="mobileMenuToggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
 
-                    <!-- html for Service -->
-                    <div class="service-h1">
-                        <h1>Services</h1>
-                            <div class="service">
-                                <div class="service-item1"><img src="webdesign.png" alt="">
-                                    <h3>Web Developer</h3>
-                                    <p>I build beautiful, responsive website that elevate your online presence. By combining aesthetics with funcionality, I ensure your website looks great and also perform flawless across all devices</p>
-                                </div>
-                                <div class="service-item2"><img src="graphicdesign.png" alt="">
-                                    <h3>Computer Operator</h3>
-                                    <p>I transform ideas into stunning visual that captivate and communicate effectively. I ensure that every design tells a story and leaves a lasting impression</p>
-                                </div>
-                                <div class="service-item3"><img src="seo.png" alt="">
-                                    <h3>SEO</h3>
-                                    <p>As an SEO specialist, my goal is to improve the visibility, ranking, and quality of a website in search engine results pages (SERPs) through various techniques and strategies.</p>
-                                </div>
-                                <div class="service-item4"><img src="content-creating.png" alt="">
-                                    <h3>Content Creation</h3>
-                                    <p>As a content creator, I develop and share valuable, relevant, and consistent content to attract and retain a clearly defined audience.</p>
-                                </div>
-                            </div>
-                    </div>
-                            <div class="line-1"></div>
-    
-                    <!-- html for Portfolio -->
-                    <div class="portfolio-1">
-                        <h1>Portfolio</h1>
-                        <div class="filter-buttons">
-                            <button class="active"><i class="fas fa-star"></i> All</button>
-                            <button><i class="fas fa-laptop-code"></i> Design</button>
-                            <button><i class="fas fa-mobile-alt"></i> Development</button>
-                        </div>
-                    <div class="portfolio-h1">
-                            <div class="portfolio">
-                                <div class="portfolio-item1"><img src="portfolio1.png" alt=""></div>
-                                <div class="portfolio-item2"><img src="portfolio2.png" alt=""></div>
-                                <div class="portfolio-item3"><img src="portfolio3.png" alt=""></div>
-                                <div class="portfolio-item4"><img src="portfolio4.png" alt=""></div>
-                            </div>
-                            <div class="line-2"></div>
-                    </div>
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+      </div>
+    </nav>
 
-                    <!-- html for Testimonial -->
-                    <div class="testimonial-container">
-                        <h1 class="testimonial-title">Testimonial</h1>
-                        <div class="testimonial-content">
-                            <span class="quote-icon">“ </span>
-                            <p class="testimonial-text">
-                                Working with Mandela Inegbedion was an amazing experience. His web development skills are top-notch, and he delivered our project on time with outstanding quality. Highly recommended.
-                            </p>
-                            <div class="testimonial-author">
-                                <img src="client-image.jpg" alt="Client Image">
-                                <div class="author-info">
-                                    <h4>Austin Nwabueze</h4>
-                                    <p>Business Man</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="line-3"></div>
-        <!-- End of Section -->
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-primary">Mandela Inegbedion</span>
+          </h1>
+          <div class="hero-subtitle">
+            <span id="typingText" class="typing-text"></span>
+            <span class="typing-cursor">|</span>
+          </div>
+          <div class="hero-buttons">
+            <button
+              class="btn btn-primary"
+              onclick="scrollToSection('projects')"
+            >
+              <span>View My Work</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+            <a href="Inegbedion_Mandela_CV.docx" class="btn btn-outline">
+              <i class="fas fa-download"></i>
+              <span>Download Resume</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-scroll">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </section>
 
-                    
-                    <!-- Beginning of footer -->
-                    <!-- html for Contact Me -->
-                    <div class="contact-form">
-                        <h1 class="contact-title">Contact Me</h1>
-                        <form>
-                            <div class="input-group">
-                                <input type="text" placeholder="Your Name">
-                                <input type="email" placeholder="Your Email">
-                            </div>
-                            <input type="text" placeholder="Subject" class="full-width">
-                            <textarea placeholder="Message" class="full-width"></textarea>
-                            <button type="submit">Send Message</button>
-                        </form>
-                    </div>
-                            
-                            <footer class="footer" id="contact me">
-                                
-                            <div class="icons">
-                                <a href="https://x.com/Mandyy_Special?t=3OqQwZrQY8acdgzcMXaa7w&s=08"><i class="fa-brands fa-x-twitter"></i></a>
-                                <a href="https://www.facebook.com/share/1anXaeMsSd/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i></a>
-                                <a href="https://www.linkedin.com/in/mandela-inegbedion-478bb5247/"> <i class="fa-brands fa-linkedin-in"></i></a>
-                                <a href="https://www.instagram.com/mandyy_special?igsh=MTBubjFwYzd5bXVzYw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>   
-                            </div>
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
 
-                                
-                                <div class="footer-links">
-                                    <a href="#">Privacy</a>
-                                    <a href="#">Terms</a>
-                                    <a href="#">FAQs</a>
-                                    <a href="#">Help</a>
-                                </div>
-                            </footer>
-                    <!-- End of footer -->
-                     
-        <script src="script.js"></script>              
-        </div>     
+        <div class="about-grid">
+          <div class="about-image">
+            <img
+              src="images/my-picture.jpg"
+              alt="John Smith - Software Developer"
+              class="profile-image"
+            />
+          </div>
+
+          <div class="about-content">
+            <h3 class="about-title">Full-Stack Developer</h3>
+            <p class="about-text">
+              I'm a passionate software developer focused on building
+              responsive, high-performance web applications. I specialize in
+              modern JavaScript frameworks and have a strong background in both
+              frontend and backend development.
+            </p>
+            <p class="about-text">
+              Outside of coding, I enjoy exploring emerging technologies,
+              contributing to open-source projects, and spending time outdoors.
+              I'm committed to writing clean, maintainable code and delivering
+              great user experiences.
+            </p>
+
+            <div class="skills-section">
+              <h4 class="skills-title">Skills & Technologies</h4>
+              <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be populated by JavaScript -->
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Projects will be populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline" id="timeline">
+          <!-- Timeline items will be populated by JavaScript -->
+        </div>
+
+        <div class="certifications">
+          <h3 class="certifications-title">Certifications</h3>
+          <div class="certifications-grid" id="certificationsGrid">
+            <!-- Certifications will be populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3 class="contact-title">Interested in Collaborating? Let’s Connect.</h3>
+            <p class="contact-text">
+              I'm always open to new opportunities and creative collaborations.
+              Feel free to reach out whether you have a question, a project
+              idea, or just want to connect, I'll be glad to hear from you.
+            </p>
+
+            <div class="contact-details" id="contactDetails">
+              <!-- Contact details will be populated by JavaScript -->
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+                <span class="error-message" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+                <span class="error-message" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  required
+                ></textarea>
+                <span class="error-message" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                <span id="submitText">Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-text">
+          &copy; 2025 Mandela Inegbedion. All rights reserved.
+        </p>
+        <div class="footer-links">
+          <a href="#" class="footer-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" class="footer-link">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+      <div class="modal-content">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <div class="modal-body" id="modalBody">
+          <!-- Modal content will be populated by JavaScript -->
+        </div>
+      </div>
     </div>
 
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+      <div class="toast-content">
+        <i class="fas fa-check-circle toast-icon"></i>
+        <span class="toast-message" id="toastMessage"></span>
+      </div>
+    </div>
 
-    
-</body>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
 </html>
