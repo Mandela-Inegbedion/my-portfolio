@@ -9,7 +9,10 @@ const skills = [
   { name: "CSS3", icon: "fab fa-css3-alt", color: "blue" },
   { name: "Node.js", icon: "fab fa-node-js", color: "green" },
   { name: "Express.js", icon: "fas fa-server", color: "cyan" },
+  { name: "Firebase", icon: "fas fa-server", color: "cyan" },
   { name: "PostgreSQL", icon: "fas fa-database", color: "purple" },
+  { name: "Django", icon: "fab fa-js-square", color: "blue" },
+  { name: "Python", icon: "fas fa-layer-group", color: "gray" },
   { name: "Git", icon: "fab fa-git-alt", color: "gray" },
 ];
 
@@ -80,11 +83,11 @@ const projects = [
 
 const experiences = [
   {
-    title: "Computer Science Degree",
-    company: "Auchi Polytechnic",
-    period: "2022 - 2024",
+    title: "Mass Communication",
+    company: "Ibrahim Badamasi Babangida University, Lapai",
+    period: "2016 - 2019",
     description:
-      "Higher National Diploma in Computer Science with a focus on software development and web technologies.    Graduated with a GPA of 3.14.",
+      "BSC in Mass Communication with a focus on digital media and web technologies. Developed strong communication skills, creativity, and a passion for technology. Gained experience in content creation, multimedia production, and digital marketing. Graduated with a solid foundation in media studies and a keen interest in pursuing a career in web development.",
     technologies: ["Web Development", "Data Structures", "Algorithms"],
   },
 ];
@@ -114,20 +117,14 @@ const contactInfo = [
   {
     icon: "fas fa-envelope",
     title: "Email",
-    value: "inegbedionmandela@email.com",
+    value: "muhdzhra204@email.com",
     color: "blue",
   },
   {
     icon: "fab fa-linkedin",
     title: "LinkedIn",
-    value: "linkedin.com/in/Mandela Inegbedion",
+    value: "linkedin.com/in/Fatimah Mohammed",
     color: "blue",
-  },
-  {
-    icon: "fab fa-github",
-    title: "GitHub",
-    value: "github.com/Mandela-Inegbedion",
-    color: "gray",
   },
 ];
 
@@ -254,7 +251,7 @@ function createIntersectionObserver() {
     {
       threshold: 0.1,
       rootMargin: "0px 0px -50px 0px",
-    }
+    },
   );
 
   // Observe all animated elements
@@ -275,7 +272,7 @@ function populateSkills() {
             <i class="${skill.icon}"></i>
             ${skill.name}
         </span>
-    `
+    `,
     )
     .join("");
 }
@@ -288,8 +285,8 @@ function populateProjects() {
       (project) => `
         <div class="project-card" onclick="openProjectModal('${project.id}')">
             <img src="${project.image}" alt="${
-        project.title
-      }" class="project-image">
+              project.title
+            }" class="project-image">
             <div class="project-content">
                 <h3 class="project-title">${project.title}</h3>
                 <p class="project-description">${project.description}</p>
@@ -299,7 +296,7 @@ function populateProjects() {
                       .map(
                         (tech) => `
                         <span class="tech-badge">${tech}</span>
-                    `
+                    `,
                       )
                       .join("")}
                     ${
@@ -324,7 +321,7 @@ function populateProjects() {
                 </div>
             </div>
         </div>
-    `
+    `,
     )
     .join("");
 }
@@ -348,13 +345,13 @@ function populateTimeline() {
                       .map(
                         (tech) => `
                         <span class="tech-badge">${tech}</span>
-                    `
+                    `,
                       )
                       .join("")}
                 </div>
             </div>
         </div>
-    `
+    `,
     )
     .join("");
 }
@@ -367,12 +364,12 @@ function populateCertifications() {
       (cert) => `
         <div class="certification-card">
             <i class="${cert.icon} certification-icon" style="color: ${
-        cert.color === "blue" ? "#3b82f6" : "#10b981"
-      }"></i>
+              cert.color === "blue" ? "#3b82f6" : "#10b981"
+            }"></i>
             <h4 class="certification-name">${cert.name}</h4>
             <p class="certification-description">${cert.description}</p>
         </div>
-    `
+    `,
     )
     .join("");
 }
@@ -392,7 +389,7 @@ function populateContactDetails() {
                 <p>${info.value}</p>
             </div>
         </div>
-    `
+    `,
     )
     .join("");
 }
@@ -665,12 +662,15 @@ function throttle(func, limit) {
       lastRan = Date.now();
     } else {
       clearTimeout(lastFunc);
-      lastFunc = setTimeout(function () {
-        if (Date.now() - lastRan >= limit) {
-          func.apply(context, args);
-          lastRan = Date.now();
-        }
-      }, limit - (Date.now() - lastRan));
+      lastFunc = setTimeout(
+        function () {
+          if (Date.now() - lastRan >= limit) {
+            func.apply(context, args);
+            lastRan = Date.now();
+          }
+        },
+        limit - (Date.now() - lastRan),
+      );
     }
   };
 }
@@ -682,5 +682,5 @@ window.addEventListener(
     updateScrollProgress();
     updateNavbar();
     updateBackToTop();
-  }, 16)
+  }, 16),
 ); // ~60fps
